@@ -1,6 +1,7 @@
 import { useTheme } from "next-themes"
 import { Toaster as Sonner } from "sonner"
 
+//wwygląd wyświetlania komunikatów o potencjalnych błędach 
 const Toaster = ({
   ...props
 }) => {

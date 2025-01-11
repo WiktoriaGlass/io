@@ -1,3 +1,4 @@
+//index - utworzenie wycieczki 
 import { Input } from '@/components/ui/input';
 import React, { useEffect, useState } from 'react';
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
@@ -92,7 +93,7 @@ function CreateTrip() {
       <div>
         <h2 className='text-xl my-3 font-medium'>Ile dni planujesz spędzić w danym miejscu? </h2>
         <Input
-          placeholder={'Przykładowo 3 dni'}
+          placeholder={'Od 1 do 5 dni'}
           type="number"
           onChange={(e) => handleInputChange('noOfDays', e.target.value)}
         />

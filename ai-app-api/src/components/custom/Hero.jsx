@@ -1,3 +1,4 @@
+//Hero - strona startowa 
 import React from 'react';
 import { Button } from '../ui/button';
 import { Link } from 'react-router-dom';
@@ -9,14 +10,14 @@ function Hero() {
         className="font-extrabold text-[50px] text-center mt-16"
       > 
         <span className="text-[hsl(32,89%,58%)]">
-          Aplikacja umożliwiająca zaplanowanie idealnych wakacji
+          WAKACJE AI
         </span>
         <span className="block">
-          Z wykorzystaniem elementów sztucznej inteligencji
+          Rozwiązanie, które sprawia, że planowanie podróży staje się przyjemnością.
         </span>
       </h1>
       <p className="text-xl text-gray-500 text-center">
-        Inżynieria Oprogramowania
+        Z wykorzystaniem elementów sztucznej inteligencji
       </p>
       <Link to ={'/create-trip'}>
       <Button>Kliknij, aby zacząć!</Button>

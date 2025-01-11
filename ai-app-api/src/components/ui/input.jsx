@@ -1,7 +1,7 @@
 import * as React from "react"
-
 import { cn } from "@/lib/utils"
 
+//wygląd pól do wprowadzania danych (liczba dni)
 const Input = React.forwardRef(({ className, type, ...props }, ref) => {
   return (
     (<input
